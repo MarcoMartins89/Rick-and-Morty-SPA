@@ -8,7 +8,7 @@ This project is a Single Page Application (SPA) built using vanilla JavaScript t
 - **Banner Image**: The application displays a banner image at the top, providing a visually appealing introduction to the app.
 - **Search Input Field**: Users can search for characters by name using the input field.
 - **Previous and Next Page Buttons**: Navigate through pages of character results with the Previous and Next arrow buttons (the buttons will only appear if such page exist).
-- **Search Button**: Initiates a search based on the character name entered in the input field.
+- **Search Button**: Initiates a search based on the character name inserted in the input field.
 - **Clear Search Button**: Resets the search input and displays the original list of characters (the button is hidden until input as a value).
 - **Character Cards**: Displays character images and information in a card format. Each card is clickable and leads to a detailed view of the character.
 - **Detailed Character View**: Upon clicking a character card, users are taken to a detailed view page with more information about the selected character. This page includes a Go Back button to return to the previous view.
@@ -18,7 +18,7 @@ This project is a Single Page Application (SPA) built using vanilla JavaScript t
 ## Technologies Used
 
 - **Frontend**: Developed using HTML, CSS, and JavaScript, with a Single Page Application (SPA) architecture implementing React like structure for seamless user experience.
-- **API Integration**: Utilizes the Rick and Morty API for all characters information.
+- **API Integration**: Utilizes the Rick and Morty API for all character's information.
 
 ## Developed By:
 
@@ -40,13 +40,13 @@ CSS styles are applied to ensure the application looks clean and is responsive a
 
 **Views**: Separate JavaScript modules for rendering different views:
 
-**Error View (error.js)**: Displays an error message and image when data fetching fails, also includes a button that redirects the user to the main page.
+**Error view (error.js)**: Displays an error message and image when data fetching fails, also includes a button that redirects the user to the main page.
 
-**Loading View (loading.js)**: Shows a loading spinner or image while data is being fetched.
+**Loading view (loading.js)**: Shows a loading spinner or image while data is being fetched.
 
-**Home View (home.js)**: Renders information of several characters, in a card format. Each card is clickable and leads to the Details view of the selected character. ALso in this view the user have an input bar, buttons to different pages for more characters, a search button and a clear search button.
+**Home view (home.js)**: Renders information of several characters, in a card format. Each card is clickable and leads to the Details view of the selected character. Also in this view the user have an input bar, buttons to different pages for more characters, a search button and a clear search button.
 
-**Details View (characterDetails.js)**: Renders detailed information about a selected character, also includes a "Go Back" button that redirects the user to the previous page.
+**Details view (characterDetails.js)**: Renders detailed information about a selected character, also includes a "Go Back" button that redirects the user to the previous page.
 
 **Components**: Reusable UI components:
 
