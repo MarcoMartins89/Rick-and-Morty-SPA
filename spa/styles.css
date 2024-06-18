@@ -149,21 +149,34 @@ h3 {
 }
 
 .detailsDiv {
-	display: inline-block;
-	align-items: center;
-	align-content: center;
 	text-align: center;
 }
 
+#imageContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 #detailsImage {
-	width: 40%;
-	height: 10%;
-	margin-top: 4rem;
+	position: absolute;
+	width: 30%;
+	height: 35%;
+	margin-top: 12rem;
 	border-radius: 40px;
 }
 
+.pDiv {
+	margin-top: 6rem;
+}
+
+.detailsP {
+	margin-top: 1rem;
+}
+
 #detailsButton {
-	margin-top: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 .loading {
 	width: 100%;
