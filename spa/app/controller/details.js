@@ -1,7 +1,6 @@
 import renderCharacter from "../view/characterDetails.js";
 import { getId } from "../service/api.js";
 import { loading } from "../view/loading.js";
-import { error } from "../view/error.js";
 
 function getPath() {
 	const { hash } = window.location;
