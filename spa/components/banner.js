@@ -4,7 +4,7 @@ function banner() {
 
 	const banner = document.createElement("img");
 	banner.id = "banner";
-	banner.src = "/images/banner.jpg";
+	banner.src = "./images/banner.jpg";
 
 	bannerDiv.appendChild(banner);
 	return bannerDiv;
